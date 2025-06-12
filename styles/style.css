@@ -147,6 +147,11 @@ body {
 	justify-content: center
 }
 
+
+.gallery .gallery-item, .nav-item .nav-link {
+	cursor: pointer;
+}
+
 .nav-pills .nav-link.active-tag,
 .nav-pills .show>.nav-link {
 	color: #fff;
