@@ -416,6 +416,5 @@ input[type=submit] {
 	#infos {
 		display: flex;
 		flex-direction: row;
-
 	}
 }
