@@ -412,4 +412,8 @@ input[type=submit] {
 	.picture {
 		width: 80%
 	}
+
+	#infos {
+		display: flex;
+	}
 }
