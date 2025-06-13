@@ -414,7 +414,8 @@ input[type=submit] {
 	}
 
 	#infos {
-		display: block;
+		display: flex;
+		flex-direction: row;
 
 	}
 }
