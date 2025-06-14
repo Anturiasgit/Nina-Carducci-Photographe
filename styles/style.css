@@ -413,9 +413,13 @@ input[type=submit] {
 		width: 80%
 	}
 
-	#infos {
+	/* #infos {
 		display: flex;
 		flex-direction: row;
 		justify-content: space-evenly;
+	} */
+
+	#infos {
+		display: none;
 	}
 }
