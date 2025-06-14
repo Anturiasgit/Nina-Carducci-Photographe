@@ -147,7 +147,8 @@ body {
 	justify-content: center
 }
 
-.gallery .gallery-item, .nav-item .nav-link {
+.gallery .gallery-item,
+.nav-item .nav-link {
 	cursor: pointer;
 }
 
@@ -178,11 +179,11 @@ body {
 }
 
 .mg-prev {
-	left:-15px;
+	left: -15px;
 }
 
 .mg-next {
-	right:-15px;
+	right: -15px;
 }
 
 .mg-next,
@@ -193,10 +194,10 @@ body {
 	justify-content: center;
 	align-items: center;
 	font-size: 24px;
-	cursor:pointer;
-	position:absolute;
-	top:50%;
-	background:white;
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	background: white;
 }
 
 form input,
@@ -284,6 +285,12 @@ form textarea {
 input[type=submit] {
 	background-color: #beb45a;
 	padding: .5em 1em
+}
+
+#infos {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
 }
 
 @media all and (max-width:1180px) {
@@ -402,24 +409,14 @@ input[type=submit] {
 	#about,
 	#contact {
 		padding-inline: 2em;
-		padding-block: 2em
+		padding-block: 2em;
 	}
 
 	form {
-		width: 100%
+		width: 100%;
 	}
 
 	.picture {
-		width: 80%
-	}
-
-	/* #infos {
-		display: flex;
-		flex-direction: row;
-		justify-content: space-evenly;
-	} */
-
-	#infos {
-		display: none;
+		width: 80%;
 	}
 }
