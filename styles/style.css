@@ -420,6 +420,6 @@ input[type=submit] {
 	} */
 
 	#infos {
-		display: none !important;
+		display: none;
 	}
 }
