@@ -154,7 +154,7 @@ body {
 
 .nav-pills .nav-link.active-tag,
 .nav-pills .show>.nav-link {
-	color: #fff;
+	color: black;
 	background-color: #beb45a;
 	border-radius: 0
 }
