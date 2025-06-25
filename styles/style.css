@@ -3,6 +3,10 @@
 	color: #000
 }
 
+.social-link, .d-block {
+	color: black;
+}
+
 .about-me__introduction,
 .quote,
 .quote__text {
